@@ -9,9 +9,9 @@ class TextSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: this._color,
+        color: _color,
       ),
-      child: Text('Hi'),
+      child: const Text('Hi'),
     );
   }
 }
